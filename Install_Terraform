@@ -28,6 +28,25 @@ content = "best contain for devops"
 }
 
 
-Terraform init --> Initialised the terraform 
+1. Terraform init --> Initialised the terraform
+ls -a
+.terraform terraform.lock.hcl
+
+2. terraform validate --> to check  configuration valid or not.
+3. terraform plan --> basically use for dry run.
+4. terraform apply --> Execute changes into the environment.
+.terraform 
+terraform.lock.hcl
+****terraform.tfstate*****
+
+The terraform.tfstate file stores the current state of your infrastructure.
+It keeps a record of all resources created by Terraform(VMs, networks, databases, etc.).
+Know what already exists
+When you run terraform plan or terraform apply, Terraform checks this file to know what is already created and what needs to change.
+
+
+
+
+
 
 
