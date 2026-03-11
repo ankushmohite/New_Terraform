@@ -21,7 +21,8 @@ resource      aws_instance my-instance {
 
 ##################################################################################
 vi main.tf
-resource local_file my_file {
+resource local_file my_file {     (my_file is the resource file identifier)
+
 filename = "automate.txt"
 content = "best contain for devops"
 
