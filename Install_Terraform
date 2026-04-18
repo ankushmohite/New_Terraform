@@ -1,5 +1,14 @@
 # Interviewse ask --> interpolation -->  interpolation is a way in which we can extract the values from terraform block.
 
+Terraform Provider: Provider is nothing but the software, with the help of provider terraform manage 3rd party p;atform though API.
+Terraform Plan: basically use for Dry run.
+Terraform apply: Execute changes in to the env.
+.terraform
+terraform.tfstate
+terraform.lock.hcl
+when we run terraform apply command will get terraform.tfstate file.
+Will show current status of infra. which will contain all related to infra.
+They never go to actual infra.  it will always refer tf.state file.
 
 
 #################### How to Install Terraform ##########################################
